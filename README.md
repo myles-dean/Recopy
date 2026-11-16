@@ -26,6 +26,10 @@
   <a href="https://github.com/myles-dean/Recopy/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/myles-dean/Recopy?label=release"></a>
 </p>
 
+<p align="center">
+  <a href="https://ko-fi.com/mylesdean_"><img alt="Buy me a coffee on Ko-fi" src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
+</p>
+
 ---
 
 **Recopy** keeps everything you copy. Press **⌃⌘V** anywhere (or click the clipboard in the menu
