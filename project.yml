@@ -1,0 +1,54 @@
+# Xcode project for Recopy. Generate with `xcodegen` (./build.sh does it for you).
+name: Recopy
+options:
+  bundleIdPrefix: com.mylesdean
+  deploymentTarget:
+    macOS: "26.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    DEVELOPMENT_TEAM: 3N7MVP4K42
+    CODE_SIGN_STYLE: Manual
+    CODE_SIGN_IDENTITY: Apple Development
+    SWIFT_VERSION: "5.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ENABLE_HARDENED_RUNTIME: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+targets:
+  Recopy:
+    type: application
+    platform: macOS
+    scheme: {}
+    sources:
+      - App
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Recopy
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleIconName: AppIcon
+        LSApplicationCategoryType: public.app-category.productivity
+        LSUIElement: true
+        NSHumanReadableCopyright: © 2026 Myles Dean
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.mylesdean.Recopy
+        PRODUCT_NAME: Recopy
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+  # Checks the clipboard handling on a private pasteboard: `RecopyTest`.
+  RecopyTest:
+    type: tool
+    platform: macOS
+    scheme: {}
+    sources:
+      - Tools/RecopyTest
+      - App/Clipboard
+      - App/Settings.swift
+    settings:
+      base:
+        PRODUCT_NAME: RecopyTest
+        PRODUCT_BUNDLE_IDENTIFIER: com.mylesdean.Recopy.Test
+        SKIP_INSTALL: YES

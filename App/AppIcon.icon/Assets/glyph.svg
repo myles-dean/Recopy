@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="86" height="122" viewBox="37 43 252 358">
+ <!-- A solid clipboard with its list cut out, matching the menu bar icon. Drawn by hand to the
+      same proportions (app icons can't use SF Symbols). Filled shapes only: Icon Composer fills
+      every path, so the gaps are holes (even-odd) and outlines that go round them.
+      The board, with a notch for the clip to sit in, and the three lines of the list. -->
+ <path fill="#FFFFFF" fill-rule="evenodd" d="M37 129 A48 48 0 0 1 85 81 L86 81 L86 106 A30 30 0 0 0 116 136 L209 136 A30 30 0 0 0 239 106 L239 81 L241 81 A48 48 0 0 1 289 129 L289 353 A48 48 0 0 1 241 401 L85 401 A48 48 0 0 1 37 353 Z M97.5 191.5 H227.5 A10.5 10.5 0 0 1 227.5 212.5 H97.5 A10.5 10.5 0 0 1 97.5 191.5 Z M97.5 245.5 H227.5 A10.5 10.5 0 0 1 227.5 266.5 H97.5 A10.5 10.5 0 0 1 97.5 245.5 Z M97.5 301.5 H164 A10.5 10.5 0 0 1 164 322.5 H97.5 A10.5 10.5 0 0 1 97.5 301.5 Z"/>
+ <!-- The clip: a rounded bar with a ring on top, and the ring's hole. -->
+ <path fill="#FFFFFF" fill-rule="evenodd" d="M115 75 L130.5 75 A32 32 0 0 1 194.5 75 L210 75 A12 12 0 0 1 222 87 L222 107 A12 12 0 0 1 210 119 L115 119 A12 12 0 0 1 103 107 L103 87 A12 12 0 0 1 115 75 Z M149.75 74.5 A12.75 12.75 0 1 0 175.25 74.5 A12.75 12.75 0 1 0 149.75 74.5 Z"/>
+</svg>
